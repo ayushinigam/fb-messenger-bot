@@ -42,7 +42,7 @@ if (!FB_PAGE_TOKEN) { throw new Error('missing FB_PAGE_TOKEN') }
 const FB_APP_SECRET = 'f9c8cbc141ebc0d2a35249e27a25e312';
 if (!FB_APP_SECRET) { throw new Error('missing FB_APP_SECRET') }
 
-let FB_VERIFY_TOKEN = null;
+let FB_VERIFY_TOKEN = 'my_voice_is_my_password_verify_me';
 crypto.randomBytes(8, (err, buff) => {
   if (err) throw err;
   FB_VERIFY_TOKEN = buff.toString('hex');
