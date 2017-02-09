@@ -18,7 +18,10 @@
   "homepage": "https://github.com/ayushinigam/fb-messenger-bot#readme",
   "dependencies": {
     "body-parser": "^1.16.0",
+    "crypto": "0.0.3",
     "express": "^4.14.1",
+    "node-fetch": "^1.6.3",
+    "node-wit": "^4.2.0",
     "request": "^2.79.0"
   }
 }
